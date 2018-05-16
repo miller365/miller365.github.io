@@ -1,0 +1,27 @@
+.container-fluid{
+    padding: 0%;
+}
+.comp-title{
+    color: white;
+    font-size: 63px;
+    font-family: 'Playfair Display', serif;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 1;
+    text-align: center;
+    top: -55%;
+    transform: translateY(-50%); 
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.img-fluid{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: relative;
+}
+.btn-primary{
+    width: 96%;
+    font-size: 45%
+}
