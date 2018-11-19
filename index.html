@@ -1,62 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-</head>
+    <title>Christopher David Miller</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+    <!-- github acitivity css -->    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
 <body>
-    <div class="container-fluid">
-        
-        <div class="row no-gutters">
-            <div class="col-sm">
-                <img src="https://images.unsplash.com/photo-1516934996081-8df6c58efb75?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ac9f56f77f292e86596f1795d743010&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="reading">
-            </div>
-            <div class="col-sm">
-                <img src="https://images.unsplash.com/uploads/1412701079442fffb7c1a/6b7a62a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=63428fdde80191f1d2299d803dfe61c3&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="surfing">
-            </div>
-            <div class="col-sm">
-                <img src="https://images.unsplash.com/photo-1468927201227-35e86293a0c8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=216cbd84aa4ff5209a2ca7a2654e65d5&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="knitting">
-            </div>
-        </div>
-        <div class="row no-gutters">
-            <div class="col-sm">
-                <img src="https://images.unsplash.com/photo-1522223142907-0fbfb9c571c1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b7a69d28bf8e5030872cb254ba06efbd&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="studying">
-                <div class="comp-title">
-                    <p></p>
-                    </div>
-            </div>
-            <div class="col-sm">
-                    <img src="https://images.unsplash.com/photo-1438109491414-7198515b166b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=92ab46af16c6220167a1df5ed5b401bd&auto=format&fit=crop&w=1950&q=80" class="img-fluid" alt="photography">
-                    <div class="comp-title rounded">
-                        <h1>Creativejfkaljd</h1>
-                        <h1>Snapshots</h1>
-                        <button type="button" class="btn btn-primary">Discover More</button>
-                    </div>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container clearfix">                       
+            <img class="profile-image img-fluid float-left" src="assets/images/biopic.jpeg" alt="me" />
+            <div class="profile-content float-left">
+                <h1 class="name">Christopher David Miller</h1>
+                <h2 class="desc">Student|Software Engineer</h2>   
+                <ul class="social list-inline">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/christophermiller1997/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/miller365"><i class="fab fa-github-alt"></i></a></li>                    
+                </ul> 
+            </div><!--//profile-->
+            <a class="btn btn-cta-primary float-right" href="assets/Miller_Christopher_Final_11_16_18.pdf" target="_blank"><i class="fas fa-paper-plane"></i> Resume</a>              
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>I'm currently a senior at Allegheny College majoring in Mathematics and minoring in Chinese. I grew up in Baltimore,MD where I would discover my deep passion for learning.
+                                Recently I was studying Chinese in Shanghai and detailed my experience in a blog.
+                            </p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                <section class="experience section">
+                        <div class="section-inner">
+                            <h2 class="heading">Work Experience</h2>
+                            <div class="content">
+                                <div class="item">
+                                    <h3 class="title">Technical Assistant - <span class="place"><a href="#">Dean of Students Office Allegheny College</a></span> <span class="year">(May 2018 - August 2018)</span></h3>
+                                    <p>Assist in making changes to the Deans Website and designing other technical solutions.</p>
+                                </div><!--//item-->
+                                <div class="item">
+                                    <h3 class="title">Lab Monitor - <span class="place"><a href="#">Allegheny College Department of Computer Science</a></span> <span class="year">( 2016 - Present)</span></h3>
+                                    <p>Maintain a Computer Lab of Ubuntu Workspaces.</p>
+                                </div><!--//item-->
+            
+                                
+                            </div><!--//content-->  
+                        </div><!--//section-inner-->                 
+                    </section>
+                    <section class="projects section">
+                            <div class="section-inner">
+                                <h2 class="heading"> Projects &amp; Publications</h2>
+                                <div class="content">
+                                    <div class="item">
+                                        <h3 class="title">Lead Information and Reporting App </h3>
+                                        <p class="summary"> 
+                                                As member of a three person team, I developed the front end of a survey application for users in the Flint,Michigan area
+                                                to report their suspicions of lead poisoning. Using React Native, the user interface and data collection components were developed for both iOS and Android
+                                                Devices.</p>
+                                    </div><!--//item-->
+                                    <div class="item">
+                                        <h3 class="title"> Genetic suppression of a phosphomimic myosin II identifies system-level factors that promote myosin II cleavage furrow accumulation</h3>
+                                        <p class="summary">How myosin II localizes to the cleavage furrow in Dictyostelium and metazoan cells remains largely 
+                                                unknown despite significant advances in understanding its regulation. We designed a genetic selection 
+                                                using cDNA library suppression of 3xAsp myosin II to identify factors involved in myosin cleavage 
+                                                furrow accumulation. The 3xAsp mutant is deficient in bipolar thick filament assembly, fails to 
+                                                accumulate at the cleavage furrow, cannot rescue myoII-null cytokinesis, and has impaired 
+                                                mechanosensitive accumulation. Eleven genes suppressed this dominant cytokinesis deficiency when 
+                                                3xAsp was expressed in WT cells. 3xAsp myosin II’s localization to the cleavage furrow was rescued 
+                                                by constructs encoding rcdBB, mmsdh, RMD1, actin, one novel protein, and a 14-3-3 hairpin. Further 
+                                                characterization showed that RMD1 is required for myosin II cleavage furrow accumulation, acting 
+                                                parallel with mechanical stress. Analysis of several mutant strains revealed that different thresholds of 
+                                                myosin II activity are required for daughter cell symmetry than for furrow ingression dynamics. Finally, 2
+                                                an engineered myosin II with a longer lever arm (2xELC), producing a highly mechanosensitive motor, 
+                                                could also partially suppress the intragenic 3xAsp. Overall, myosin II accumulation is the result of 
+                                                multiple parallel and partially redundant pathways that comprise a cellular contractility control system. </p>
+                                        <p><a class="more-link" href="https://www.molbiolcell.org/doi/pdf/10.1091/mbc.E14-08-1322" target="_blank"><i class="fas fa-external-link-alt"></i>View Publication</a></p>
+                                    </div><!--//item-->
+                                    
+                                </div><!--//content-->  
+                            </div><!--//section-inner-->                 
+                        </section><!--//section-->
                     
-                    
-                </div>
-            <div class="col-sm">
-                <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f2e8843e67935b873f32154438cf9664&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="gaming">
-                <div class="comp-title">
-                    <p></p>
-                    </div>
-            </div>
-        </div>
-        <div class="row no-gutters">
-            <div class="col-sm">
-                <img src="https://images.unsplash.com/photo-1496061621978-5f5dc4641a9b?ixlib=rb-0.3.5&s=f265d1dd644491b80d06379f4bfa4e6d&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="reading">     </div>
-            <div class="col-sm">
-                <img src="https://images.unsplash.com/photo-1521798509035-1c05acf2d840?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aa1550c45e6f545df5e9ec9ed0108684&auto=format&fit=crop&w=400&q=60" class="img-fluid" alt="writing">     </div>
-            <div class="col-sm">
-                <img src="https://images.unsplash.com/photo-1485561222814-e6c50477491b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d21120da4fcc4c480b60953723c7e4ac&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="piano">     </div>
-        </div>
-       
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                
+                <!--//section-->
+                <!--//section-->
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Meadville,PA, USA</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">millerc8@allegheny.edu</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">miller365.github.io</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                    Experienced Mathematics Tutor with a demonstrated history of working in the higher education industry. Skilled in Microsoft Word, Communication, Public Speaking, Java, andWeb and mobile development. Strong education professional with a Bachelor’s Degree focused in Mathematics and Computer Science from Allegheny College. Have a desire to work in Software Development, Artificial Intelligence and Computer Science Education
+                                </p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Python <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Proficient</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Javascript <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Proficient</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="80%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3,<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Proficient</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">React &amp;React Native<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="false" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Proficient</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="70%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                
+                
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BS Mathematics</h3>
+                                <h4 class="university">Allegheny College <span class="year">(2015-2019)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Mandarin Chinese:</strong></span>
+                                    <span class="level">Intermediate <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                
+                
+                
+                
+                
+                
+               >
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out our commercial license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html>
+</html> 
+
